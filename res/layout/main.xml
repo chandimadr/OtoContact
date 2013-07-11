@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget47"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<TextView
+	android:id="@+id/widget60"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Enter the phone number of recipient"
+	android:layout_x="1dp"
+	android:layout_y="1dp" />
+<EditText
+	android:id="@+id/txtPhoneNo"
+	android:layout_width="317px"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="3dp"
+	android:layout_y="19dp" />
+
+<TextView
+    android:id="@+id/widget64"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="3dp"
+    android:layout_y="60dp"
+    android:text="Message" />
+
+<EditText
+    android:id="@+id/txtMessage"
+    android:layout_width="317px"
+    android:layout_height="84dp"
+    android:layout_x="4dp"
+    android:layout_y="75dp"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/widget72"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="15dp"
+    android:layout_y="312dp"
+    android:text="Contact Number" />
+
+<EditText
+    android:id="@+id/txtContactNum"
+    android:layout_width="317px"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="328dp"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/btnSendSMS"
+    android:layout_width="301dp"
+    android:layout_height="39px"
+    android:layout_x="11dp"
+    android:layout_y="163dp"
+    android:text="Send SMS" />
+
+<TextView
+    android:id="@+id/widget68"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="207dp"
+    android:text="Enter Contact Name" />
+
+<EditText
+    android:id="@+id/txtContactName"
+    android:layout_width="314px"
+    android:layout_height="wrap_content"
+    android:layout_x="7dp"
+    android:layout_y="227dp"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/btnExit"
+    android:layout_width="127dp"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="365dp"
+    android:text="Exit" />
+
+<Button
+    android:id="@+id/btnSearchContactNum"
+    android:layout_width="301dp"
+    android:layout_height="40px"
+    android:layout_x="9dp"
+    android:layout_y="268dp"
+    android:text="Search" />
+
+<Button
+    android:id="@+id/btnSettings"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:layout_x="181dp"
+    android:layout_y="366dp"
+    android:text="Settings" />
+
+</AbsoluteLayout>

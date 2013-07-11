@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="214dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="214dp"
+        android:text="Exit" />
+
+    <EditText
+        android:id="@+id/txtNameSharer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="138dp"
+        android:hint="Firstname LastName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="117dp"
+        android:text="Enter the contact sharer name" />
+
+    <TextView
+        android:id="@+id/txtCurrentSharer"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_x="6dp"
+        android:layout_y="44dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>
